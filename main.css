@@ -1,7 +1,48 @@
-#container{
-    display: grid ;
-    grid-template-columns: [first] 200px [second] 200px [third] 200px [fouth] 200px [fifth] 200px;
-    grid-template-rows: 200px 200px 200px 200px ;
-    column-gap: 80px;
-    row-gap: 80px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+#container {
+  margin-top: 300px;
+  display: grid;
+  grid-template-columns: [first] 200px [second] 200px [third] 200px [fouth] 200px [fifth] 200px;
+  grid-template-rows: 200px 200px 200px 200px;
+  column-gap: 80px;
+  row-gap: 80px;
+}
+
+#LunaP {
+  grid-column-start: fifth;
+  grid-column-end: fifth;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  justify-self: center;
+}
+
+.tamaño {
+  border: 1px solid springgreen;
+  width: 200px;
+  height: 200px;
+}
+
+#LunaC {
+  grid-column-start: fifth;
+
+  grid-row-start: 3;
+  grid-row-end: 3;
+  justify-self: center;
+}
+
+#ColorB {
+  grid-column-start: fouth;
+  grid-column-end: fouth;
+  justify-self: center;
 }
