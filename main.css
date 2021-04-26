@@ -10,14 +10,31 @@ body {
   justify-content: center;
 }
 
+
 #container {
-  margin-top: 300px;
   display: grid;
   grid-template-columns: [first] 200px [second] 200px [third] 200px [fouth] 200px [fifth] 200px;
   grid-template-rows: 200px 200px 200px 200px;
-  column-gap: 80px;
-  row-gap: 80px;
+  grid-gap: 80px;
 }
+
+#container img {
+  width: 200px;
+  height: 200px;
+}
+.img-top {
+  grid-row-start: 1;
+  border-radius: 8px;
+}
+#img-1 {
+  grid-column-start: 1;
+}
+#img-2 {
+  grid-column-start: 2;
+}
+#img-3 {
+  grid-column-start: 3;
+
 
 #LunaP {
   grid-column-start: fifth;
@@ -25,12 +42,6 @@ body {
   grid-row-start: 1;
   grid-row-end: 1;
   justify-self: center;
-}
-
-.tamaño {
-  border: 1px solid springgreen;
-  width: 200px;
-  height: 200px;
 }
 
 #LunaC {
