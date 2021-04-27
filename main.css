@@ -9,7 +9,7 @@ body {
   min-height: 100vh;
   justify-content: center;
 
-  background-image: url(./img/Rectángulo\ 4.png);
+  background-image: url(./img/fondo.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,7 +20,7 @@ body {
 #container {
   display: grid;
   margin-top: 150px;
-  grid-template-columns: [first] 200px [second] 200px [third] 200px [fouth] 200px [fifth] 200px;
+  grid-template-columns: [first] 200px [second] 200px [third] 200px [fourth] 200px [fifth] 200px;
   grid-template-rows: 200px 200px 200px 200px;
   grid-gap: 80px;
   background-image: linear-gradient(90deg,#52c5df0a,#ad55c10a);
@@ -56,14 +56,27 @@ body {
 
 #LunaC {
   grid-column-start: fifth;
-
   grid-row-start: 3;
   grid-row-end: 3;
   justify-self: center;
 }
 
 #ColorB {
-  grid-column-start: fouth;
-  grid-column-end: fouth;
+  grid-column-start: fourth;
+  grid-column-end: fourth;
   justify-self: center;
+}
+
+#gati1 {
+  grid-column-start: second;
+  grid-column-end: second;
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+
+#gati2 {
+  grid-column-start: fourth;
+  grid-column-end: fourth;
+  grid-row-start: 4;
+  grid-row-end: 4;
 }
