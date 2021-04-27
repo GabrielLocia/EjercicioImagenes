@@ -23,6 +23,7 @@ body {
   grid-template-columns: [first] 200px [second] 200px [third] 200px [fourth] 200px [fifth] 200px;
   grid-template-rows: 200px 200px 200px 200px;
   grid-gap: 80px;
+  height: 1100px;
   background-image: linear-gradient(90deg,#52c5df0a,#ad55c10a);
   border-radius: 10px;
 }
